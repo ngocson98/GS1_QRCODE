@@ -1,7 +1,7 @@
 # GS1-Barcode-Reader
+# Source [Dynamsoft Barcode Reader](https://www.dynamsoft.com/barcode-reader/overview/).
 
-A GS1 Barcode Reader Demo. It is powered by [Dynamsoft Barcode Reader](https://www.dynamsoft.com/barcode-reader/overview/).
-
+A GS1 Barcode Reader Demo. 
 [Online demo](https://magnificent-pie-f6f946.netlify.app/)
 
 GS1 barcodes are barcodes whose data conform to the [GS1 specification](https://ref.gs1.org/standards/genspecs/). We can extract information like expiry data and serial number from the data.
