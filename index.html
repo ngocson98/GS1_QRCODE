@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GS1 Barcode Scanner</title>
     <script src="https://cdn.jsdelivr.net/npm/gs1-barcode-parser@1.0.1/dist/gs1-barcode-parser-1.0.1.min.js"></script>
+    <script type="module" crossorigin src="/assets/index-b4104f3e.js"></script>
+    <link rel="stylesheet" href="/assets/index-758ceab2.css">
   </head>
   <body>
     <div id="app">
       <h2>GS1 Barcode Scanner</h2>
       <div>
         <button id="decodeImageBtn">Decode an image</button>
-        <input type="file" id="imageFile" style="display:none;"/>
+        <input type="file" id="imageFile" accept="image/*" style="display:none;"/>
         <button id="liveScanBtn">Start live scanning</button>
       </div>
       <div>
@@ -33,8 +35,8 @@
       <button id="closeBtn">Close</button>
     </div>
     <div>
-      Powered by <a target="_blank" href="https://www.dynamsoft.com/barcode-reader/overview/">Dynamsoft Barcode Reader</a>.
+      Powered by <a target="_blank" href="https://www.dynamsoft.com/barcode-reader/overview/">KSystem</a>.
     </div>
-    <script type="module" src="/src/main.ts"></script>
+    
   </body>
 </html>
